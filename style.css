@@ -1,0 +1,301 @@
+.anuncio2 {
+    width: auto;
+    height: auto;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 10px;
+    background-color: #00a6ff;
+    /*background-image: radial-gradient(circle at center, #fff6bb,#e5db9e );*/
+    /*background: linear-gradient(to right,#8804fb,#000000);*/
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.anuncio2:hover{
+    transform: scale(1.1);
+}
+.anuncio {
+    width: auto;
+    height: auto;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 10px;
+    background-color: #00a6ff;
+    /*background-image: radial-gradient(circle at center, #fff6bb,#e5db9e );*/
+    /*background: linear-gradient(to right,#8804fb,#000000);*/
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    margin-top: 60px;
+}
+.anuncio:hover{
+    transform: scale(1.1);
+}
+.img_anuncio{
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 150px;
+}
+.img_anuncio img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.titulo_anuncio{
+    font-family: tahoma;
+    margin-top: 0;
+    align-items: center;
+    text-decoration: none;
+}
+.descricao{
+    font-family: tahoma;
+    margin-bottom: 0;
+    align-items: center;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #681818;*/
+    background-color: #00a6ff;
+    /*background: linear-gradient(to right, #000000, #8804fb);*/
+    /*background: linear-gradient(to bottom,#000000, #8804fb);*/
+    margin: 0;
+    padding: 0;
+    /*font-family: fontawesome;*/
+}
+/*body::before{
+    content: "";
+    background-image: url(https://img.freepik.com/vetores-gratis/textura-granulada-gradiente_23-2148981502.jpg?w=740&t=st=1713802546~exp=1713803146~hmac=daf93d27cac4c81dac1cf99cfebdf19baf0972dc16a23b646019b054c265392b);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}*/
+/*header{
+    font-family: Racing Games, Arial, sans-serif;
+    background-color: #fff;
+    /*background-color: #007bff;*/
+    /*background: linear-gradient(to bottom, #fff, #b70606);
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}*/
+header {
+    position: relative;
+    font-family: Tahoma;
+    /*background-image: url(https://blog.ebaconline.com.br/blog/wp-content/uploads/2022/12/kcnb4lkkucfipej3ngqxm-scaled-e1674744655926.jpeg);*/
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 150px;
+}
+.img_perfil {
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário */
+    right: 0px; /* Ajuste conforme necessário */
+    width: 25%; /* Ajuste conforme necessário */
+    max-width: 200px; /* Ajuste conforme necessário */
+    z-index: 2;
+}
+
+.img_perfil img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    position: relative; /* Remova essa linha se não for necessária */
+    z-index: 2;
+}
+
+
+/*.img_perfil::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    z-index: 1;
+}*/
+
+
+
+/*.titulo_pagina{
+    position: absolute;
+    position: fixed;
+    font-family: roboto, Arial, sans-serif;
+    text-align: center;
+    left: 20px;
+    bottom: 0;
+    background-color: white; /* Fundo opaco */
+    /*padding: 1px 5px;
+    color: black;
+    /*border-radius: 15px;*/
+    /*border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border: 5px solid #40ff00;
+    z-index: auto;
+    /*background: linear-gradient(to right, #000000, #8804fb);
+}
+/*.texto-header h1,
+.texto-header h3 {
+    margin: 50px; /* Remove margens para evitar espaços extras
+}*/
+/*.texto-header h1{
+    color: white;
+    list-style: none;
+}*/
+main{
+    flex: 1;
+}
+footer{
+    background: linear-gradient(to bottom, #00a6ff, black);
+    /*background-color: #191919;*/
+    color: #fff;
+    text-align: center;
+}
+/*.linha{
+    border-bottom: 5px solid white;
+    border: 2px solid #40ff00;
+    /*background: linear-gradient(to right, #000000, #8804fb);
+}*/
+nav{
+    /*background-color:#b70b0b;*/
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logotipo a{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.logotipo a:hover{
+    color: red;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #ff0000;
+}
+.conteiner{
+    position: relative;
+    width: auto;
+    height: auto;
+    top: auto;
+    margin-bottom: 20px;
+}
+.propaganda_pc{
+    text-align: center;
+    font-family: tahoma;
+    color: white;
+    font-size: 20px;
+    top: 80%;
+    left: 50%;
+}
+/*.animated-element {
+    opacity: 0;
+    animation: fadeInUp 2s forwards, moveUp 2s forwards;
+}
+  
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+@keyframes moveUp {
+    from {
+      transform: translateY(-50px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+.element-animated{
+    opacity: 0;
+    animation: fadeInDown 2s forwards, moveDown 2s forwards;
+}
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+@keyframes moveDown {
+    from {
+      transform: translateY(50px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+.fade-element {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+  }
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+ }*/
+  
